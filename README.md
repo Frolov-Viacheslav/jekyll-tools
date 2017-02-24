@@ -41,4 +41,4 @@ Can be used to run Jekyll website generator in development mode.
 3. Service will start in interactive (incremental watch) mode that is useful for
 debugging.
 4. Access your website `http://0.0.0.0:4000`.
-5. You can use :kbd:`ctrl-c` to stop and remove container.
+5. You can use <kbd>ctrl-c</kbd> to stop and remove container.
