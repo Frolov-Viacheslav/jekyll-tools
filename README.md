@@ -16,7 +16,7 @@ Based on [`jekyll/jekyll:pages`](https://hub.docker.com/r/jekyll/jekyll/) docker
 #### How to use
 
 1. Copy `build.sh` script to Jekyll-based website source directory.
-2. Configure destination folder name (`_deploy` by default) in `build.sh`
+2. Configure destination folder name (`_deploy` by default) in `build.sh`.
 3. Run `build.sh`:
 
        ```
@@ -27,7 +27,7 @@ Based on [`jekyll/jekyll:pages`](https://hub.docker.com/r/jekyll/jekyll/) docker
 
 ### start_service.sh
 
-Can be used to run Jekyll website generator in development mode
+Can be used to run Jekyll website generator in development mode.
 
 #### How to use
 
@@ -41,4 +41,4 @@ Can be used to run Jekyll website generator in development mode
 3. Service will start in interactive (incremental watch) mode that is useful for
 debugging.
 4. Access your website `http://0.0.0.0:4000`.
-5. You can use :kdb:`ctrl-c` to stop and remove container.
+5. You can use :kbd:`ctrl-c` to stop and remove container.
